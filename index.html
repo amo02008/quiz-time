@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript quiz</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div id="main">
+        <!-- open main div -->
+        <div id="header">
+            <!-- open header div -->
+            <h1>JavaScript quiz</h1>
+        </div><!-- close header div -->
+        <form id="quiz" name="quiz">
+
+            <p>Who invented JavaScript?</p>
+            <input type="radio" id=mc name="question1" value="Brendan Eich"> Brendan Eich<br>
+            <input type="radio" id="mc" name="question1" value="Michael Labieniec"> Michael Labieniec<br>
+            <input type="radio" id="mc" name="question1" value="Brendan Frasier"> Brendan Frasier<br>
+
+            <p>Which tool can you use to ensure code quality?</p>
+            <input type="radio" id=mc name="question2" value="Angular"> Angular<br>
+            <input type="radio" id="mc" name="question2" value="jquery"> jquery<br>
+            <input type="radio" id="mc" name="question2" value="ESLint"> ESLint<br>
+
+            <p>When does JavaScript run?</p>
+            <input type="radio" id=mc name="question3" value="prior to execution"> prior to execution<br>
+            <input type="radio" id="mc" name="question3" value="half-time"> half-time<br>
+            <input type="radio" id="mc" name="question3" value="just-in-time"> just-in-time<br>
+
+            <p>Which of the following is <i>not</i> a JavaScript date type?</p>
+            <input type="radio" id=mc name="question4" value="Boolean"> Boolean <br>
+            <input type="radio" id="mc" name="question4" value="Float"> Float<br>
+            <input type="radio" id="mc" name="question4" value="Undefined"> Undefined<br>
+
+            <input type="button" id="button" value="Submit" onclick="check();">
+
+        </form>
+
+        <div id="after_submit">
+            <p id="number_correct">You Finished! Put your initials here</p>
+        </div>
+        <!-- <textarea name="" id="" cols="1.5" rows="1.5"></textarea> -->
+
+    </div>
+
+    </div><!-- close main div -->
+
+    <!-- make sure you add text area for initals and score -->
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
