@@ -4,7 +4,11 @@ function startQuiz() {
     document.getElementById("start").style.visibility = "hidden";
     document.getElementById("quiz").style.visibility = "visible";
     document.getElementById("after_submit").style.visibility = "visible";
-    document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";   
+    
+    
+    
+    // before event listener was added for start quiz, check function ran with total correct showing in p tag
+    // document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";   
 
 
     function check() {
@@ -37,10 +41,12 @@ function startQuiz() {
 
     }
 }
-after_submit.addEventListener("click", button);
-function myFunction () {
-document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-}
+
+// attempted to get score to show on screen in p tag
+// after_submit.addEventListener("click", button);
+// function myFunction () {
+// document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+// }
 
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
