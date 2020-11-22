@@ -1,3 +1,53 @@
-#after_submit {
-    visibility: hidden;
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/901/258/508/pattern-art-abstract-quiz-wallpaper-preview.jpg");
+    background-size: cover;
 }
+
+#start{
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:125px;
+    height:100px;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    color : lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ghostwhite;
+}
+
+#start:hover{
+    border: 3px solid lightseagreen;
+    color : lightseagreen;
+}
+
+h1{
+  color: whitesmoke;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: darkcyan;
+}
+
+#quiz {
+    visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: fit-content;
+    background-color: aquamarine;
+       }
+    
+ #button {
+     margin-top: 20px;
+ }   
+
+ #after_submit {
+     color: darkcyan;
+     visibility: hidden;
+ }
+
